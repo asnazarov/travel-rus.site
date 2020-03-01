@@ -1,0 +1,96 @@
+// .cover {
+//     max-width: 1184px;
+//     margin-left: auto;
+//     margin-right: auto;
+//     margin-bottom: 80px;
+//     display: flex;
+//     justify-content: flex-end;
+//     align-items: center;
+//     flex-direction: column;
+//     box-sizing: border-box;
+//     padding: 50px;
+//     color: #fff;
+//     font-family: "Inter-Black", sans-serif;
+//     position: relative;
+//     background-image: url(../images/cover/cover.jpg);
+//     height: 594px;
+//     background-size: cover;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     &__title {
+//         max-width: 1094px;
+//         margin-bottom: 134px;
+//         font-weight: 900;
+//         font-size: 72px;
+//         line-height: 78px;
+//         text-align: center;
+//         z-index: 1;
+//     }
+//     &__subtitle {
+//         max-width: 382px;
+//         font-size: 18px;
+//         line-height: 26px;
+//         text-align: center;
+//         margin: 0;
+//         z-index: 1;
+//     }
+//     &__link {
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         width: 100%;
+//         height: 100%;
+//         background: rgba(0, 0, 0, 0.3);
+//     }
+// }
+// .cover:hover {
+//     background-color: rgba(0, 0, 0, 0.6);
+//     transition: all 0.9s;
+// }
+.cover {
+    max-width: 1184px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    background-image: url(../images/cover/cover.jpg);
+    height: 594px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    &__link {
+        text-decoration: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 50px;
+        color: #fff;
+        font-family: "Inter", sans-serif;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    &__link:hover {
+        background: rgba(0, 0, 0, 0.6);
+        transition: all 0.9s;
+    }
+    &__title {
+        max-width: 1094px;
+        margin-bottom: 117px;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 78px;
+        text-align: center;
+        z-index: 1;
+    }
+    &__subtitle {
+        max-width: 382px;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        margin: 0;
+        z-index: 1;
+    }
+}

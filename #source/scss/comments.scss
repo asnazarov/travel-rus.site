@@ -1,0 +1,31 @@
+.comments {
+    max-width: 1184px;
+    margin: 0 auto 90px;
+    &__container {
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.comment {
+    font-family: "Inter", serif;
+    max-width: 382px;
+    &__image {
+        border-radius: 50%;
+        max-width: 90px;
+        margin: 0 0 38px;
+    }
+    &__quote {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 0 0 24px;
+    }
+    &__author {
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0;
+    }
+}

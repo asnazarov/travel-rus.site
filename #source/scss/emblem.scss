@@ -1,0 +1,41 @@
+.emblem {
+    max-width: 1184px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    &__title {
+        max-width: 443px;
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 46px;
+        margin: 0 0 80px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 208px;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__image {
+        width: 180px;
+        height: 226px;
+        margin-bottom: 35px;
+    }
+    &__city {
+        color: #CCCCCC;
+        ;
+        text-align: center;
+        font-size: 24px;
+        line-height: 26px;
+        // word-wrap: break-word;
+        font-weight: 900;
+        margin: 0;
+    }
+}

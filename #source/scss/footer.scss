@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1184px;
+    margin: 0 auto 50px;
+    &__link {
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+        list-style: none;
+        color: #fff;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 41px;
+        margin: 0 18px 0 0;
+    }
+    &__link:hover {
+        opacity: 0.7;
+    }
+    &__copyright {
+        align-items: flex-end;
+        font-family: 'Inter', sans-serif;
+        color: #fff;
+        margin: 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: right;
+        padding-top: 16px;
+    }
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
